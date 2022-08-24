@@ -2,6 +2,41 @@
     --color-main: #1f2937;
     --text-main: #f9faf8;
     --color-sub: #e5e7eb;
-    --text-sub: #1f2937;
     --accent: #3882f6;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+}
+
+.info {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
+.call-to-action {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-sub);
 }
