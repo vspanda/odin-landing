@@ -42,6 +42,50 @@ body {
 
 .hero {
     display: flex;
+    background-color: var(--color-main);
+    color: var(--color-sub);
+    align-items: center;
+    justify-content: center;
+
+    padding: 64px;
+}
+
+.hero-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 30vw;
+}
+
+.hero-left {
+    display: flex;
+    flex-flow: column nowrap;
+
+    width: 35vw;
+    gap: 16px;
+}
+
+.hero-left > h2 {
+    padding: 0;
+    margin: 0;
+
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+.hero-left > p {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-left > button {
+    background-color: var(--accent);
+    border: none;
+    color: var(--color-sub);
+    padding: 8px;
+    border-radius: 8px;
+    width: fit-content;
 }
 
 .info {
