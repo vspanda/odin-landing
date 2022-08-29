@@ -116,6 +116,8 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+
+    background-color: var(--color-sub);
 }
 
 .call-to-action {
@@ -148,5 +150,6 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: var(--color-sub);
+    color: var(--text-main);
+    background-color: var(--color-main);
 }   
