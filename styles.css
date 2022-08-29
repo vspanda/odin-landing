@@ -111,6 +111,14 @@ body {
     justify-content: space-around;
 }
 
+.info-card > .card {
+    width: 8vw;
+    height: 8vw;
+
+    border: 8px solid var(--accent);
+    border-radius: 10%;
+}
+
 .quote {
     display: flex;
     flex-flow: column nowrap;
