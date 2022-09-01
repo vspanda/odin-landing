@@ -126,6 +126,10 @@ body {
     align-items: center;
 
     background-color: var(--color-sub);
+    font-size: 36px;
+    color: var(--color-main);
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .call-to-action {
