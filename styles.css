@@ -132,6 +132,10 @@ body {
     font-style: italic;
 }
 
+.quote > .quote-body {
+    max-width: 60vw;
+}
+
 .call-to-action {
     margin: 5vh 10vw;
 }
